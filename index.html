@@ -11,13 +11,13 @@
 <body>
   <div>
     <div class="flex mx-4">
-      <h1 class="text-left w-1/2 text-2xl">
+      <h1 class="text-left w-1/2 text-xl">
         <a href="index.html">
           Hi! Welcome to Musiccessories!
         </a>
       </h1>
   
-      <p class="text-right w-1/2 text-2xl">
+      <p class="text-right w-1/2 text-xl">
         No instruments. Only accessories.
       </p>
     </div>
@@ -54,8 +54,22 @@
         </div>
       </div>
     </div>
-    <h1>Ready to Order?</h1>
     <!-- Order form goes here -->
+  </div>
+  <div>
+      <h1 class="text-center text-2xl">Order Now!</h1>
+      <form class="flex">
+          <label for="custName" class="x-auto">Your Name</label>
+          <input type="text" name="custName" class="x-auto">
+
+          <label for="custEmail">Your Email</label>
+          <input type="text" name="custEmail" id="Customer Email">
+
+          <label for="orderText">What would you like to order?</label>
+          <input type="text" name="orderText">
+
+          <button>Submit</button>
+      </form>
   </div>
 </body>
 
